@@ -8,5 +8,16 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "start": "bun run src/server.ts",
+    "build": "tsoa routes",
+    "dev": "bun run src/server.ts --watch"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "tsoa": "^6.6.0"
   }
 }

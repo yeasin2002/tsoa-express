@@ -1,15 +1,18 @@
-# tsoa-express
 
-To install dependencies:
-
-```bash
-bun install
 ```
+tsoa-todo/
+│
+├── src/
+│   ├── server.ts
+│   ├── controllers/
+│   │   └── todo.controller.ts
+│   ├── models/
+│   │   └── todo.ts
+│   └── routes.ts   (auto-generated)
+│
+├── tsoa.json
+├── tsconfig.json
+├── package.json
 
-To run:
 
-```bash
-bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.2.16. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
